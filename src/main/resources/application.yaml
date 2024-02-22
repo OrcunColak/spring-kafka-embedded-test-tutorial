@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: dev
+  
+  kafka:
+    consumer:
+      auto-offset-reset: earliest
+      group-id: test
+test:
+  topic: embedded-test-topic
