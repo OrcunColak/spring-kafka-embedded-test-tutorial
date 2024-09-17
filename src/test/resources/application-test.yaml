@@ -4,6 +4,6 @@ spring:
   kafka:
     consumer:
       auto-offset-reset: earliest
-      group-id: baeldung
+      group-id: test
 test:
   topic: embedded-test-topic
