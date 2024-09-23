@@ -25,7 +25,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 @DirtiesContext
 @EmbeddedKafka(partitions = 1, brokerProperties = {"listeners=PLAINTEXT://localhost:9092", "port=9092"})
 @Profile("test")
-class EmbeddedKafkaIntegrationTest {
+class EmbeddedKafkaIntegrationWithListenerTest {
 
     @Autowired
     private KafkaProducer kafkaProducer;
